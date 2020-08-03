@@ -34,6 +34,7 @@ Public Class Z31E010
             End If
             SetItemEnabled()
 
+
             '初始化代理连接
             Proxy.GetProxyCompany(MyApplication.Company.ServerName, MyApplication.Company.DatabaseName, MyApplication.Company.UserName)
         End If
