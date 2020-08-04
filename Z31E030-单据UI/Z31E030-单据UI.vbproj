@@ -48,16 +48,16 @@
   <ItemGroup>
     <Reference Include="A0010, Version=2020.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\SAP Business One\Addons\Transinfo\A0\A0010.dll</HintPath>
+      <HintPath>..\..\..\..\..\Administrator\SAP Business One\Addons\Transinfo\A0\A0010.dll</HintPath>
     </Reference>
     <Reference Include="B0007">
-      <HintPath>..\..\..\..\SAP Business One\Addons\Transinfo\B0\B0007.dll</HintPath>
+      <HintPath>..\..\..\..\..\Administrator\SAP Business One\Addons\Transinfo\B0\B0007.dll</HintPath>
     </Reference>
     <Reference Include="B0009">
-      <HintPath>..\..\..\..\SAP Business One\Addons\Transinfo\B0\B0009.dll</HintPath>
+      <HintPath>..\..\..\..\..\Administrator\SAP Business One\Addons\Transinfo\B0\B0009.dll</HintPath>
     </Reference>
     <Reference Include="DIProxy">
-      <HintPath>..\..\..\..\SAP Business One\DIProxy.dll</HintPath>
+      <HintPath>..\..\..\..\..\Administrator\SAP Business One\DIProxy.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
       <Private>False</Private>
     </Reference>
@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Z31E010-销售订单变更单\Z31E010.vb" />
     <Compile Include="Z31E010-销售订单变更单\Z31E011.vb" />
+    <Compile Include="Z31E020-测试单据0\Z31E020.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -142,6 +143,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Z31E020-测试单据0\Z31E020.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
