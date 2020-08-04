@@ -25,6 +25,7 @@ Public Class Z31E010
             ioMtx_10.SetSelectionModeEx(BoMatrixSelect.ms_Auto, False)
             ioMtx_10.AutoSelectRow = True
 
+
             ioDbds_Z31E010 = GetDBDataSource("@Z31E010")
             ioDbds_Z31E011 = GetDBDataSource("@Z31E011")
 

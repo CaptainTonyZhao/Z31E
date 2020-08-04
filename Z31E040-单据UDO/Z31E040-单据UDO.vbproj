@@ -87,6 +87,7 @@
     </Compile>
     <Compile Include="Z31E010-销售订单变更单\Z31E010.vb" />
     <Compile Include="Z31E020-测试单据0\Z31E020.vb" />
+    <Compile Include="Z31E030-测试单据1\Z31E030.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
